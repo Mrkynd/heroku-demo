@@ -1,0 +1,22 @@
+{
+  "name": "go-shawty",
+  "version": "1.0.0",
+  "description": "A simple application that sends personalized birthday cards to friends and family. Choose the design, add custom messages, send gift cards, add videos and photos as well as record a message.",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon --watch server.js"
+  },
+  "author": "Mr Kynd",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.4"
+  },
+  "engines": {
+    "node": "6.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
